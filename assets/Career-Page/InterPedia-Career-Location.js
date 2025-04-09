@@ -1,6 +1,6 @@
 
     document.addEventListener("DOMContentLoaded", function () {
-        if (window.location.pathname === "/p/career.html") {
+        if (window.location.pathname === "/p/careers.html") {
             // Apply the style only on this page
             let style = document.createElement("style");
             style.innerHTML = `
