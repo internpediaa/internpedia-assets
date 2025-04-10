@@ -720,6 +720,8 @@ footer {
     font-weight: 600;
     letter-spacing: .5px;
     box-shadow: 0 2px 5px rgba(37, 99, 235, .2)
+    width: 58px;
+    text-align: center;
 }
 
 .badge.closed {
