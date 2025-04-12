@@ -488,7 +488,7 @@ footer {
     z-index: 5
 }
 
-.stat-item {
+.stat-item1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -497,7 +497,7 @@ footer {
     transition: transform .3s ease
 }
 
-.stat-item:not(:last-child)::after {
+.stat-item1:not(:last-child)::after {
     content: '';
     position: absolute;
     right: -1.25rem;
@@ -508,7 +508,7 @@ footer {
     background-color: #e5e7eb
 }
 
-.stat-item:hover {
+.stat-item1:hover {
     transform: translateY(-5px)
 }
 
@@ -1085,7 +1085,7 @@ footer {
         padding: 1.5rem
     }
 
-    .stat-item:not(:last-child)::after {
+    .stat-item1:not(:last-child)::after {
         display: none
     }
 
@@ -1165,7 +1165,7 @@ footer {
         padding: 1.5rem 1rem
     }
 
-    .stat-item {
+    .stat-item1 {
         width: 100%;
         padding: .7rem
     }
