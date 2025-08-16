@@ -4,11 +4,11 @@
             style.innerHTML = `  
   .static_page .item-post h1.entry-title {
    				font-weight: 900;
-    			font-size: 42px;
-    			line-height: 52px;
-    			text-align: left;
-    			margin: 0px;
-    			max-width: 1100px;
+                font-size: 29px;
+                line-height: 40px;
+                text-align: left;
+                margin: 0px;
+                max-width: 1100px;
                 }
   .post-inner-area {
                 position: relative;
@@ -27,9 +27,10 @@
   @media (max-width: 768px) {
 
                			.static_page .item-post h1.entry-title {
-   						        margin-top: 4px;
-        						font-size: 22px;
-        						line-height: 15px;
+   						    margin-top: 4px;
+                            margin-left: 11px;
+                            font-size: 20px;
+                            line-height: 21px;
                              }
                           }`;
             document.head.appendChild(style);
