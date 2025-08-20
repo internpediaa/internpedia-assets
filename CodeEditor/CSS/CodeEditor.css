@@ -6,9 +6,9 @@
       box-sizing: border-box;
     }
 
-.html-color{color: #ff6c43;}
-.css-color{color: #7b96ff;}
-.js-color{color: #f7df1e;}
+.html-color{color: #ff6c43 !important;}
+.css-color{color: #7b96ff !important;}
+.js-color{color: #f7df1e !important;}
 
     .panes {
       background: #0b0c10;
