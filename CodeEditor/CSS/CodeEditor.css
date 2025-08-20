@@ -6,6 +6,10 @@
       box-sizing: border-box;
     }
 
+.html-color{color: #ff6c43;}
+.css-color{color: #7b96ff;}
+.js-color{color: #f7df1e;}
+
     .panes {
       background: #0b0c10;
       border: 1px solid #171920;
