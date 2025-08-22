@@ -1,5 +1,4 @@
-<script>
-      document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
           if (window.location.pathname === "/p/html-css-javascript.html") {
               // Apply the style only on this page
               let style = document.createElement("style");
@@ -31,4 +30,3 @@
               document.head.appendChild(style);
           }
       });
-</script>
