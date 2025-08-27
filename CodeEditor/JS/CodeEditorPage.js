@@ -5,6 +5,13 @@
             .container {
 	width: 1145px !important;
 }
+.post-body h3 {
+  	color: #000000 !important;
+  }
+
+  .dark .post-body p {
+      color: #0d0d0de6 !important;
+  }
   .static_page .item-post h1.entry-title {
    				font-weight: 900;
                 font-size: 29px;
