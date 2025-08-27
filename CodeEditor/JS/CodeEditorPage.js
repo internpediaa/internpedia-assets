@@ -2,6 +2,9 @@
             // Apply the style only on this page
             let style = document.createElement("style");
             style.innerHTML = `  
+            .container {
+	width: 1145px !important;
+}
   .static_page .item-post h1.entry-title {
    				font-weight: 900;
                 font-size: 29px;
