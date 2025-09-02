@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-          if (window.location.pathname === "/p/html-css-javascript.html") {
+          if (window.location.pathname === "/p/html-css-javascript.html" || window.location.pathname === "/p/tools.html") {
               // Apply the style only on this page
               let style = document.createElement("style");
               style.innerHTML = `
