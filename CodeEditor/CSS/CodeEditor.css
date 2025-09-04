@@ -288,6 +288,72 @@
       color: #bbf7d0;
     }
 
+ /* Documentation Section */
+.documentSection {
+        background: white;
+        width: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 14px;
+        width: 100%;
+        padding: clamp(16px, 4vw, 24px);
+    }
+
+    .documentTitle {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+    }
+
+    .documentTitle::before {
+        content: '';
+        display: block;
+        width: 4px;
+        height: 24px;
+        background: linear-gradient(to bottom, #6c5ce7, #a178df);
+        border-radius: 2px;
+    }
+  
+  .documentSection h2{
+  	color: #000000 !important;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+  }
+  
+  .documentSection h3 {
+            color: #D36582 !important;
+            font-size: 1.4rem !important;
+            margin: 20px 0 10px 0 !important;
+        }
+  
+  .documentSection li{
+  	color: #000000 !important;
+  }
+
+    .note {
+        background-color: #e7f3fe;
+        border-left: 4px solid #2196F3;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+    }
+
+    .tip {
+        background-color: #e7f7e7;
+        border-left: 4px solid #4CAF50;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+    }
+
+    .warning {
+        background-color: #fff8e1;
+        border-left: 4px solid #ffc107;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 4px;
+    }
  /* Related Pages Section */
     .related-pages {
       margin-top: 24px;
