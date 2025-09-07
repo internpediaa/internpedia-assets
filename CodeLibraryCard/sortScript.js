@@ -6,10 +6,10 @@ function filterCards(category) {
         // Update active button state
         buttons.forEach(btn => {
           if (btn.getAttribute('onclick').includes(category)) {
-            btn.classList.add('active', 'bg-blue-500', 'text-white');
+            btn.classList.add('active', 'bg-blue-800', 'text-white');
             btn.classList.remove('bg-gray-200', 'text-gray-700', 'dark:bg-gray-700', 'dark:text-gray-200');
           } else {
-            btn.classList.remove('active', 'bg-blue-500', 'text-white');
+            btn.classList.remove('active', 'bg-blue-800', 'text-white');
             btn.classList.add('bg-gray-200', 'text-gray-700', 'dark:bg-gray-700', 'dark:text-gray-200');
           }
         });
