@@ -208,18 +208,6 @@
                     });
                 }
 
-                // Lazy Loading Images
-                if ('loading' in HTMLImageElement.prototype) {
-                    // Browser supports native lazy loading
-                    const images = document.querySelectorAll('img');
-                    images.forEach(img => {
-                        img.setAttribute('loading', 'lazy');
-                    });
-                } else {
-                    // Fallback for browsers that don't support lazy loading
-                    // You could use a library like lozad.js here
-                }
-
                 // Smooth Scrolling for Anchor Links
                 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                     anchor.addEventListener('click', function (e) {
