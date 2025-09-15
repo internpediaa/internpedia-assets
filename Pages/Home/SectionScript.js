@@ -154,13 +154,11 @@
                         item.classList.toggle('active');
 
                         // Change icon
-                        const icon = this.querySelector('i');
+                        const icon = this.querySelector('.material-symbols-rounded');
                         if (item.classList.contains('active')) {
-                            icon.classList.remove('fa-plus');
-                            icon.classList.add('fa-minus');
+                        icon.textContent = 'remove'; // Show minus icon
                         } else {
-                            icon.classList.remove('fa-minus');
-                            icon.classList.add('fa-plus');
+                        icon.textContent = 'add';    // Show plus icon
                         }
                     });
                 });
