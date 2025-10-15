@@ -1,6 +1,4 @@
-
-
-    ::after,
+::after,
     ::before {
         --tw-content: ''
     }
@@ -242,7 +240,7 @@
 
     .bg-emerald-500 {
         --tw-bg-opacity: 1;
-        background-color: rgb(16 185 129 / var(--tw-bg-opacity, 1))
+        background-color: #10b918;
     }
 
     .bg-gray-200 {
@@ -267,7 +265,7 @@
 
     .bg-primary {
         --tw-bg-opacity: 1;
-        background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1))
+        background-color: #0000ff;
     }
 
     .bg-white {
@@ -372,7 +370,7 @@
 
     .text-primary {
         --tw-text-opacity: 1;
-        color: rgb(59 130 246 / var(--tw-text-opacity, 1))
+          color: #0000FF;
     }
 
     .text-white {
