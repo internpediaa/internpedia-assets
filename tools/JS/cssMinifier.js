@@ -167,8 +167,8 @@
 
             setTimeout(() => {
                 toast.classList.add('hidden');
-            }, 900);
-        }, 9000);
+            }, 300);
+        }, 3000);
     }
 
     // Initialize character count on page load
