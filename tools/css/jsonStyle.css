@@ -1,3 +1,11 @@
+.tool-section h2, .tool-section textarea, .tool-section pre{
+  color: #000000;
+  }
+  
+  .w-32{width:8rem}
+  
+  
+
 .json-key { color: #9c1c1c; }
         .json-string { color: #0b7500; }
         .json-number { color: #1a01cc; }
@@ -730,6 +738,12 @@
         --tw-ring-opacity: 1;
         --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity, 1))
     }
+
+@media (max-width: 425px){
+    .sm-column{
+        flex-direction: column;
+    }
+  }
 
     @media (min-width: 768px) {
         .md\:grid-cols-4 {
