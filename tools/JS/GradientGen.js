@@ -1,3 +1,5 @@
+
+        // Initial state
         let colors = ['#3b82f6', '#8b5cf6'];
         let direction = 'to right';
         let gradientType = 'linear';
@@ -185,8 +187,9 @@
                             value="${color}" 
                             class="color-input"
                             data-index="${index}"
+                            aria-label="color"
                         >
-                        <span class="text-gray-700 font-medium w-20">${color.toUpperCase()}</span>
+                        <label class="text-gray-700 font-medium w-20">${color.toUpperCase()}</label>
                     </div>
                     <div class="flex items-center space-x-2">
                         <input 
@@ -196,8 +199,9 @@
                             value="${colorPositions[index]}" 
                             class="slider w-20"
                             data-index="${index}"
-                        >
-                        <span class="percentage-display text-gray-600 text-sm w-8">${colorPositions[index]}%</span>
+                            aria-label="range"
+                            >
+                        <label class="percentage-display text-gray-600 text-sm w-8">${colorPositions[index]}%</label>
                         ${index > 1 ? `
                             <button class="remove-color-btn p-2 rounded-full text-red-500 hover:text-red-700" data-index="${index}">
                                 <i class="fas fa-times"></i>
